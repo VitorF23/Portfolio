@@ -47,13 +47,13 @@ const Header = ({ sectionProjects, sectionContact, sectionÀPropos }) => {
         </Stack>
       </div>
       <nav className={menuOpen ? "open" : ""}>
+        <button onClick={() => scrollToSection(sectionÀPropos)}>
+          À PROPOS
+        </button>
         <button onClick={() => scrollToSection(sectionProjects)}>
           PROJETS
         </button>
         <button onClick={() => scrollToSection(sectionContact)}>CONTACT</button>
-        <button onClick={() => scrollToSection(sectionÀPropos)}>
-          À PROPOS
-        </button>
       </nav>
     </header>
   );
