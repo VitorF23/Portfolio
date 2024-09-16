@@ -48,7 +48,7 @@ const Header = ({ sectionProjects, sectionContact, sectionÀPropos }) => {
       </div>
       <nav className={menuOpen ? "open" : ""}>
         <button onClick={() => scrollToSection(sectionProjects)}>
-          PROJECTS
+          PROJETS
         </button>
         <button onClick={() => scrollToSection(sectionContact)}>CONTACT</button>
         <button onClick={() => scrollToSection(sectionÀPropos)}>
