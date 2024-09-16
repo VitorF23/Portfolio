@@ -3,7 +3,7 @@ import linkdinLogo from "../img/linkdinLogo.png";
 import "../components/footer.css";
 
 const Footer = ({ sectionContact }) => {
-  const email = "vitorcastroferreira@gmail.com";
+  const email = "vitorcastroferreiraf@gmail.com";
   const handleClickGit = () => {
     window.open("https://github.com/VitorF23", "_blank", "noopener,noreferrer");
   };
